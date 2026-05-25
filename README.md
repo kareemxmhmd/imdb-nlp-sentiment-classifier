@@ -3,6 +3,13 @@
 ## Overview
 Built a sentiment analysis model for IMDB movie reviews, automatically classifying reviews as **positive** or **negative**. The project benchmarks 10 ML algorithms across 3 feature engineering strategies on 50,000 reviews.
 
+## Dataset
+
+The dataset used is the [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) from Kaggle.
+
+- 50,000 movie reviews labeled as positive or negative
+- Download the CSV and place it in the root directory as `IMDB Dataset.csv`
+
 ## Technical Approach
 A comprehensive NLP pipeline was implemented:
 
