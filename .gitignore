@@ -1,1 +1,29 @@
 *.csv
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Pytest
+.pytest_cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model artifacts
+models/*
+!models/.gitkeep
+!models/*.json

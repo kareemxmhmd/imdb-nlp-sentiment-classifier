@@ -1,0 +1,15 @@
+{
+    "version": "20260901_080448",
+    "training_date": "2026-09-01T08:04:48.508787",
+    "metrics": {
+        "accuracy": 0.8874,
+        "f1_score": 0.8882714824369915,
+        "target_precision": 0.98,
+        "auto_tag_threshold": 0.9
+    },
+    "metadata": {
+        "dataset_size": 50000,
+        "model_type": "LinearSVC + CalibratedClassifierCV",
+        "features": "TF-IDF (5000 max features)"
+    }
+}
